@@ -190,6 +190,7 @@ DB_PASSWORD=
 </ul>
 
 <h3>Live video: https://youtu.be/HLaublhJ7Zc</h3>
+<a href="mailto:nababurdev@gmail.com">For any support: nababurdev@gmail.com</a>
 
 <h4>Happy Open Source....</h4>
 
