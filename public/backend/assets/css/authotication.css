@@ -1,0 +1,455 @@
+/*
+  Theme Name: Bootstrap Admin Dashboard
+  Author: Nababur Rahaman
+  Support: nababurbd@gmail.com
+  Author URL: https://github.com/nababur
+  Author URL: https://www.peopleperhour.com/freelancer/development-it/nababur-rahman-wordpress-codeigniter-expert-qjnjaw
+  Description: Free use for Backend Development.
+  Version: 1.0
+*/
+body {
+
+  font-size: 14px;
+  background: rgba(45,192,201,.87);
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+a {
+    color: rgba(43, 193, 202, 0.87);
+    text-decoration: none;
+    background-color: transparent;
+}
+a, a:active, a:focus, 
+button, button:focus, button:active, 
+.btn, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {
+    outline: none;
+    outline: 0;
+}
+.btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+
+a:hover, a:active, a:focus {
+  outline: 0;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+i, a i {
+    vertical-align: middle;
+    top: -1px;
+    position: relative;
+    font-size: 1.3em !important;
+}
+a:hover {
+    color: rgba(45,192,201,.87);
+    text-decoration: none;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2a2a2a;
+}
+.btn:focus {
+  outline: none;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0 rgba(38,143,255,.5);
+}
+.btn-success.focus, .btn-success:focus {
+    box-shadow: 0 0 0 0 rgba(38,143,255,.5);
+}
+.btn-warning.focus, .btn-warning:focus {
+    box-shadow: 0 0 0 0 rgba(38,143,255,.5);
+}
+.btn-info.focus, .btn-info:focus {
+    box-shadow: 0 0 0 0 rgba(38,143,255,.5);
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0 rgba(38,143,255,.5);
+}
+
+.form-group .form-control {
+    border-radius: 0;
+}
+
+/*Preloader css3*/
+.spinner_body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999999;
+    background: #fff;
+    height: 100vh;
+
+}
+.spinner{
+ 
+    opacity:1;
+    width: 80px;
+    height: 80px;
+    
+    border: 2px solid #f3f3f3;
+    border-top:3px solid #2a2a2a;
+    border-radius: 100%;
+    
+position: absolute;
+    right: 50%;
+    top: 45%;
+    
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+/*Theme Custom Buttons */
+.theme-primary-btn{
+    background: linear-gradient(133deg,rgba(0,31,146,.87),rgba(1,35,148,.87) 3%,rgba(2,39,149,.87) 5%,rgba(45,192,201,.87) 100%)no-repeat;
+}
+
+
+
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/* Loring == Register == Reset Password page*/
+/*================================================*/
+.wrap .login-text span.benzi{
+color: #fff;
+
+}
+.wrap .box {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 420px;
+  margin: 20px auto 0px;
+}
+
+.panel .panel-content {
+    padding: 12px;
+}
+.bg-scale-0 {
+    background: #f7f7f7 !important;
+}
+
+.wrap .page-body {
+    display: block;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    position: relative;
+}
+
+
+.wrap .form-stripe .form-group:last-child, .form-stripe .form-group:last-of-type {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  border-bottom: none !important;
+}
+
+.wrap .input-with-icon {
+  display: block;
+  position: relative;
+}
+
+.wrap .input-with-icon > input {
+  padding-left: 30px !important;
+}
+
+.wrap .input-with-icon i {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+    z-index: 10;
+    padding: 0 5px;
+    line-height: 34px;
+    color: #999999;
+    top: 3px;
+}
+
+.wrap .input-with-icon.right-icon-input > input {
+  padding-left: 12px !important;
+  padding-right: 30px !important;
+}
+
+.wrap .input-with-icon.right-icon-input i {
+  left: auto;
+  right: 5px;
+}
+
+
+
+
+
+.panel {
+    border: none;
+    -webkit-box-shadow: 1px 1px 1px #cccccc;
+    box-shadow: 1px 1px 1px #cccccc;
+}
+
+
+
+
+/*Social Login User*/
+
+.social-login a {
+  color: #fff;
+  background: #99583d;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: fontawesome;
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  margin: 0 2px;
+  transition: all .5s;
+}
+.social-login a:hover {
+    background: linear-gradient(133deg,rgba(0,31,146,.87),rgba(1,35,148,.87) 3%,rgba(2,39,149,.87) 5%,rgba(45,192,201,.87) 100%)no-repeat;
+}
+.social-login a:hover p {
+  bottom: 35px;
+  visibility: visible;
+}
+.social-login a p {
+  color: #666;
+  position: absolute;
+  bottom: 0;
+  left: -25px;
+  right: -25px;
+  padding: 5px 7px;
+  z-index: -1;
+  font-size: 14px;
+  border-radius: 2px;
+  background: #fff;
+  visibility: hidden;
+  transition: all 0.5s cubic-bezier(0.6, -0.6, 0.2, 1.5);
+}
+.social-login a p:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 40px;
+}
+
+.social-login a.fb{background-color: #1f69b3;}
+.social-login a.tw{background-color: #43b3e5;}
+.social-login a.gl{background-color: #d34836;}
+.social-login a.gt{background-color: #24292e;}
+
+
+
+
+/*Reset Page css*/
+
+/*
+
+Custom Checkbox css*/
+
+
+
+.form-stripe .form-group:last-child, .form-stripe .form-group:last-of-type {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  border-bottom: none !important;
+}
+
+.input-with-icon {
+  display: block;
+  position: relative;
+}
+
+.input-with-icon > input {
+  padding-left: 30px !important;
+}
+
+.input-with-icon i {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  z-index: 10;
+  padding: 0 5px;
+  line-height: 34px;
+  color: #999999;
+}
+
+.input-with-icon.right-icon-input > input {
+  padding-left: 12px !important;
+  padding-right: 30px !important;
+}
+
+.input-with-icon.right-icon-input i {
+  left: auto;
+  right: 5px;
+}
+
+.checkbox-custom {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.checkbox-custom.checkbox-inline {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.checkbox-custom.checkbox-inline label {
+  margin-right: 15px;
+}
+
+.checkbox-custom:last-child, .checkbox-custom:last-of-type {
+  margin-bottom: 0;
+}
+
+.checkbox-custom input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+  margin-left: -20px;
+}
+
+.checkbox-custom input[type="checkbox"]:checked + label:after {
+  font-family: 'IcoFont';
+  content: '\f021';
+  top: 6px;
+  left: 0px;
+  margin-top: -5px;
+  font-size: 11px;
+  line-height: 1;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+
+.checkbox-custom input[type="checkbox"]:checked + label:before {
+  border-color: #999999;
+  border-width: 10px;
+}
+
+.checkbox-custom input[type="checkbox"]:disabled {
+  cursor: not-allowed;
+}
+
+.checkbox-custom input[type="checkbox"]:disabled:checked + label:after {
+  color: #999999;
+}
+
+.checkbox-custom input[type="checkbox"]:disabled + label {
+  cursor: not-allowed;
+}
+
+.checkbox-custom input[type="checkbox"]:disabled + label:before {
+  background-color: #999999;
+}
+
+.checkbox-custom label.check {
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 30px !important;
+  position: relative;
+  -webkit-transition: border .2s linear 0s, color .2s linear 0s;
+  transition: border .2s linear 0s, color .2s linear 0s;
+  font-weight: normal;
+}
+
+.checkbox-custom label.check:before, .checkbox-custom label.check:after {
+  position: absolute;
+  display: inline-block;
+  -webkit-transition: border .2s linear 0s, color .2s linear 0s;
+  transition: border .2s linear 0s, color .2s linear 0s;
+}
+
+.checkbox-custom label.check:before {
+  content: "";
+  background-color: #fff;
+  border: 1px solid #c8c7cc;
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  left: 0;
+  margin-right: 10px;
+  top: 1px;
+}
+
+.checkbox-custom label.check + label.error {
+  display: block;
+}
+
+.checkbox-success input[type="checkbox"]:checked + label:after {
+  color: #FFF;
+}
+
+.checkbox-success input[type="checkbox"]:checked + label:before {
+  border-color: #88b93c;
+}
+
+.checkbox-warning input[type="checkbox"]:checked + label:after {
+  color: #FFF;
+}
+
+.checkbox-warning input[type="checkbox"]:checked + label:before {
+  border-color: #fea223;
+}
+
+.checkbox-danger input[type="checkbox"]:checked + label:after {
+  color: #FFF;
+}
+
+.checkbox-danger input[type="checkbox"]:checked + label:before {
+  border-color: #d2322d;
+}
+
+.checkbox-info input[type="checkbox"]:checked + label:after {
+  color: #FFF;
+}
+
+.checkbox-info input[type="checkbox"]:checked + label:before {
+  border-color: #5bc0de;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label:after {
+  color: #ffffff;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label:before {
+  border-color: rgba(45,192,201,.87);
+}

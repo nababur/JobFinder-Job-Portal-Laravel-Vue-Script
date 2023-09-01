@@ -1,0 +1,505 @@
+/*
+  Theme Name: Bootstrap Admin Dashboard
+  Author: Nababur Rahaman
+  Support: nababurbd@gmail.com
+  Author URL: https://github.com/nababur
+  Author URL: https://www.peopleperhour.com/freelancer/development-it/nababur-rahman-wordpress-codeigniter-expert-qjnjaw
+  Description: Free use for Backend Development.
+  Version: 1.0
+*/
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+
+
+}
+
+
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+
+.d-desktop{display: none}
+.d-mobile{display: block}
+
+.left-sidebar {
+    width: 0;
+}
+.left-sidebar.active, .left-sidebar.hovered {
+    width: 250px;
+}
+
+.wrap .page-body {
+    padding-top: 35px;
+}
+
+.page-content-wrapper {
+    padding-left: 15px;
+}
+/*.for-mobile {
+    position: absolute;
+    right: 4%;
+    z-index: 999;
+    display: block;
+}
+*/
+
+.mt-5, .my-5 {
+    margin-top: 1rem!important;
+}
+.pt-5, .py-5 {
+    padding-top: 1rem!important;
+}
+
+.table-responsive .btn {
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+
+
+.geleral-settings .text-right{    text-align: left!important;}
+.permissions span.mr-4 {
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+}
+.table-responsive {
+    margin-bottom: 20px;
+}
+.viewuser .col-md-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.editprofile .col-md-2 {
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+
+.editprofile .col-md-4 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.create-item .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.spinner {
+
+    width: 60px;
+    height: 60px;
+ 
+}
+#profile-photo {
+    height: auto;
+    width: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+.login-text h3{
+    font-size: 18px;
+
+}
+.wrap .page-body {
+    padding-top: 35px;
+}
+
+#reset_password h4{font-size: 16px}
+
+.alert {
+    position: relative;
+    padding: 10px 5px;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.left-sidebar {
+    width: 0;
+}
+.left-sidebar.active, .left-sidebar.hovered {
+    width: 250px;
+}
+.page-content-wrapper {
+    padding-left: 15px;
+}
+
+#nav-toggle {
+    height: 55px;
+    width: 55px;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+    background: #2a2a2a;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.header #menu-action {
+    display: block;
+    float: left;
+    width: 100%;
+    line-height: 55px;
+    height: 55px;
+    margin-right: 0px;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    background: #2a2a2a;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.brand-logo {
+    position: relative;
+    width: 100%;
+}
+.content-header .breadcrumb {
+
+    padding: 10px 10px;
+}
+.card-body {
+    padding: 10px;
+}
+.card-body-icon i{font-size: 37px !important;}
+.content-header .create-item {
+    position: inherit;
+    right: 0%;
+    top: 0%;margin-bottom: 10px;
+}
+
+
+
+.create-item .btn {
+    padding: 5px 5px;font-size: 14px;
+}
+
+#usersTable_length {
+    width: 100%;
+    float: left;
+}
+
+.table-responsive .btn {
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+
+.mt-5, .my-5 {
+    margin-top: 1rem!important;
+}
+.pt-5, .py-5 {
+    padding-top: 1rem!important;
+}
+.geleral-settings .text-right{    text-align: left!important;}
+.permissions span.mr-4 {
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+}
+.d-desktop{display: none}
+.d-mobile{display: block}
+.viewuser{padding: 0px 15px}
+.table-responsive {
+    margin-bottom: 20px;
+}
+
+
+.create-item .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+
+
+
+.header #menu-action span {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}
+
+
+
+
+.spinner{
+ 
+    right:42%;
+    
+    animation: spin 1s infinite linear;
+}
+
+.set_thumb #settings-logo img {
+    height: auto;
+    width: 80px;
+
+}
+.add-photo #img_contain img {
+    height: auto;
+    width: 100px;
+
+}
+.spinner {
+
+    width: 60px;
+    height: 60px;
+ 
+}
+
+#profile-photo {
+    height: auto;
+    width: 100px;
+
+}
+
+
+
+
+
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.d-desktop{display: none}
+.d-mobile{display: block}
+
+.login-text h3{
+    font-size: 18px;
+
+}
+.wrap .page-body {
+    padding-top: 35px;
+}
+
+#reset_password h4{font-size: 16px}
+
+.alert {
+    position: relative;
+    padding: 10px 5px;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.left-sidebar {
+    width: 0;
+}
+.left-sidebar.active, .left-sidebar.hovered {
+    width: 250px;
+}
+.page-content-wrapper {
+    padding-left: 15px;
+}
+
+#nav-toggle {
+    height: 55px;
+    width: 55px;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+    background: #2a2a2a;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.header #menu-action {
+    display: block;
+    float: left;
+    width: 100%;
+    line-height: 55px;
+    height: 55px;
+    margin-right: 0px;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    background: #2a2a2a;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.brand-logo {
+    position: relative;
+    width: 100%;
+}
+.content-header .breadcrumb {
+
+    padding: 10px 10px;
+}
+.card-body {
+    padding: 10px;
+}
+.card-body-icon i{font-size: 37px !important;}
+.content-header .create-item {
+    position: inherit;
+    right: 0%;
+    top: 0%;margin-bottom: 10px;
+}
+
+
+
+.create-item .btn {
+    padding: 5px 5px;font-size: 14px;
+}
+
+#usersTable_length {
+    width: 100%;
+    float: left;
+}
+
+.table-responsive .btn {
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+
+.mt-5, .my-5 {
+    margin-top: 1rem!important;
+}
+.pt-5, .py-5 {
+    padding-top: 1rem!important;
+}
+.geleral-settings .text-right{    text-align: left!important;}
+.permissions span.mr-4 {
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.viewuser{padding: 0px 15px}
+
+.table-responsive {
+    margin-bottom: 20px;
+}
+.create-item .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.header #menu-action span {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}
+
+
+.spinner{
+ 
+    right:42%;
+    
+    animation: spin 1s infinite linear;
+}
+.set_thumb #settings-logo img {
+    height: auto;
+    width: 80px;
+
+}
+
+.add-photo #img_contain img {
+    height: auto;
+    width: 100px;
+
+}
+.spinner {
+
+    width: 60px;
+    height: 60px;
+ 
+}
+#profile-photo {
+    height: auto;
+    width: 100px;
+
+}
+}
+
+
+

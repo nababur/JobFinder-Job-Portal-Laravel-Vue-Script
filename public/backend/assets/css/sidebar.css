@@ -1,0 +1,112 @@
+
+/*
+  Theme Name: Bootstrap Admin Dashboard
+  Author: Nababur Rahaman
+  Support: nababurbd@gmail.com
+  Author URL: https://github.com/nababur
+  Author URL: https://www.peopleperhour.com/freelancer/development-it/nababur-rahman-wordpress-codeigniter-expert-qjnjaw
+  Description: Free use for Backend Development.
+  Version: 1.0
+*/
+
+#left-sidebar-section .left-sidebar .sub-dropdown {
+    padding-left: 30px;
+}
+#left-sidebar-section .left-sidebar .sub-dropdown ul.sub-list{}
+#left-sidebar-section .left-sidebar .sub-dropdown ul.sub-list li{}
+#left-sidebar-section .left-sidebar .sub-dropdown ul.sub-list li a {
+    padding: 10px 15px;
+}
+#left-sidebar-section .left-sidebar .sub-dropdown ul.sub-list li a:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-left: 1px solid #2f2f2f;
+}
+
+
+
+/*Single Page Accordion*/
+.single-page-accordion .card-header, .card-link,.card-link:hover{background-color:#000;text-align:left;color:hotpink;}
+.single-page-accordion .card-header {
+  padding: 20px 30px;
+}
+.single-page-accordion .card-body {
+  padding: 13px 30px 22px 30px;
+  color: #777;
+  font-size: 16px;
+  line-height: 27px;
+  border-top: 1px solid #ccc;
+}
+.single-page-accordion .card{border: none;-webkit-box-shadow: 0 0px 35px rgba(232, 232, 232, 1.1);
+-moz-box-shadow: 0 0px 35px rgba(232, 232, 232, 1.1);
+box-shadow: 0 0px 35px rgba(232, 232, 232, 1.1);}
+.single-page-accordion .card-header, .card-link, .card-link:hover {
+  background-color: #fff;
+  text-align: left;
+  color: #777;
+  font-size: 16px;
+  border: none;
+  font-weight: normal;
+}
+ .left-sidebar ul li a span{position:absolute;top:0px;right:20px;font-size:20px;color:#777;
+-webkit-animation: minus 0.5s;}
+
+@keyframes minus {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+[aria-expanded="false"] > .expanded, [aria-expanded="true"] > .collapsed {display: none;}
+#left-sidebar-section  span.expanded i{ color: #777}
+#left-sidebar-section .left-sidebar ul li a.current span.expanded i{color:#fff }
+
+
+.left-sidebar {
+overflow:scroll !important
+   
+}
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+::-webkit-scrollbar-track {
+  
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: #6d6d6d; 
+}
+
+
+
+
+
+/*
+Ck Editor Css*/
+.ck-editor__editable_inline {
+    min-height: 250px;
+}
+
+
+/*404 css*/
+.error-number {
+    font-size: 130px;
+    font-size: 10rem;
+    line-height: 130px;
+    line-height: 10rem;
+    color: rgba(43, 193, 202, 0.87)
+}
+.error-text {
+    margin-top: 20px;
+    font-size: 14px;
+    font-size: 1.0769230769rem;
+}
