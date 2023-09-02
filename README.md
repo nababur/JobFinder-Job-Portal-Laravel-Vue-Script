@@ -204,4 +204,4 @@ DB_PASSWORD=
 </div>
 
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Thanks, Colorlib for the free JobFinder HTML template.
