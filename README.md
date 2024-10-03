@@ -186,7 +186,7 @@ DB_PASSWORD=
 <span>Nababur Rahaman</span>
 <ul>
   <li><a href='https://github.com/nababur'>Author profile</a></li>
-   <li><a href='https://nababur.info/'>Website:https://nababur.info/</a></li>
+   <li><a href='https://nababur.com/'>Website:https://nababur.com/</a></li>
 </ul>
 
 <h3>Live video: https://youtu.be/HLaublhJ7Zc</h3>
